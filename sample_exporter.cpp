@@ -165,7 +165,7 @@ int main(int argc, char* argv[])
         pRootGroup->addGroup(pSubGroup);
     }
 
-    std::string filename("test.gltf");
+    std::string filename("test2.gltf");
     std::string outdir("./bin/");
     exporter.doExport(filename, outdir);
     return 0;
